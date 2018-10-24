@@ -5,578 +5,389 @@ declare(strict_types=1);
 
 // Array for authors names and the authors IDs.
 $authors = [
-  ['name' => 'Author1', 'id' => 1],
-  ['name' => 'Author2', 'id' => 2],
-  ['name' => 'Author3', 'id' => 3],
-  ['name' => 'Author4', 'id' => 4],
-  ['name' => 'Author5', 'id' => 5],
+  ['name' => 'Voldemort', 'id' => 1],
+  ['name' => 'Lois Lane', 'id' => 2],
+  ['name' => 'Edward Blom', 'id' => 3],
+  ['name' => 'Scooby Doo', 'id' => 4],
+  ['name' => 'Black Beard', 'id' => 5],
 ];
 
 // Array for articles. En variant.
 $articles = [
   [
-    'title' => 'fake news',
-    'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-    rutrum dolor malesuada, sollicitudin eros id, ultricies nibh. Proin a nulla
-    tempus felis iaculis auctor. Aliquam erat volutpat. Integer vitae ex vitae
-    enim dapibus mollis. Quisque justo enim, commodo quis euismod eget,
-    ullamcorper in massa. Pellentesque congue nulla eu elit semper, id
-    tincidunt diam imperdiet. Nam porta erat turpis, id congue nibh ultrices
-    sed.' . '<br>' .
-
-    'Proin at rhoncus dolor. Cras sagittis lobortis sapien sit amet facilisis.
-    Integer quis enim gravida erat sollicitudin aliquam quis sed libero. Sed
-    sagittis imperdiet diam, sed dictum odio. Maecenas sodales enim sed
-    sagittis tristique. Nulla et turpis vestibulum, venenatis ex eu, viverra
-    erat. Praesent eleifend vel nunc vitae vestibulum. Sed ipsum risus, congue
-    a pulvinar eu, semper vitae diam. Sed vitae ultricies nulla. Vestibulum
-    ornare quam augue, quis rutrum est pretium dignissim. Integer gravida
-    varius interdum. Fusce sit amet dignissim nunc, aliquam scelerisque lectus.
-    In luctus, metus ut bibendum elementum, odio massa aliquet nibh, gravida
-    tempus tortor nisl et erat.' . '<br>' .
-
-    'Suspendisse et laoreet massa. Donec auctor sagittis nisi, a facilisis
-    lectus rutrum et. Aliquam rhoncus mauris sed enim pretium, et accumsan ex
-    rhoncus. Nulla facilisi. In quis porta arcu. Curabitur congue commodo
-    dolor. Nam semper augue varius, consequat est imperdiet, elementum lorem.
-    Phasellus dolor justo, accumsan et cursus at, cursus non tortor.
-    Suspendisse mauris lacus, sollicitudin elementum magna pulvinar, fringilla
-    aliquam velit.' . '<br>' .
-
-    'Nunc aliquet erat id augue posuere, non tempor dolor dapibus. Aliquam erat
-    volutpat. Vestibulum a imperdiet magna. Pellentesque congue odio a justo
-    blandit venenatis. Pellentesque feugiat sed ipsum id tincidunt. Nulla nec
-    consectetur orci. Donec lectus sem, elementum sed imperdiet at, volutpat
-    vel ante. Praesent nec enim vel justo suscipit consectetur. Phasellus
-    venenatis, ante sodales viverra luctus, nisl dui pulvinar quam, ac
-    scelerisque sem ante vitae augue. Morbi nec consectetur felis, id accumsan
-    mauris. Aliquam commodo massa et velit pharetra, imperdiet congue quam
-    tristique. Aliquam euismod augue sapien. Cras dignissim suscipit leo,
-    interdum vulputate ligula mattis at. In ultricies, nisl eu rutrum rhoncus,
-    odio sapien pulvinar enim, eget dapibus justo ligula a tortor. Aenean
-    consectetur orci ex. Vestibulum eu nisl nunc.' . '<br>' .
-
-    'In iaculis ullamcorper mauris, eu dignissim quam finibus id. Integer ac ex
-    at turpis mattis pretium sollicitudin vel nulla. Vestibulum vel justo
-    tempus lorem blandit ullamcorper eu eu orci. Nulla tincidunt maximus
-    fermentum. Cras sit amet porttitor neque, ut venenatis ex. Curabitur
-    feugiat auctor vulputate. Maecenas interdum vehicula quam. Aliquam ultrices
-    neque eget dui aliquam, et dapibus tortor convallis. Morbi eu varius justo,
-    id dignissim eros. Duis eu augue tristique est sollicitudin commodo. Sed a
-    egestas nunc. Nulla eget hendrerit felis. Sed elementum suscipit velit a
-    congue. Proin magna eros, interdum vel sem at, dignissim bibendum eros.
-    Nunc id eleifend est, sed varius augue. Donec quis massa eget eros mollis
-    egestas at eu ante.',
-    'author' => 'hanna',
+    'title' => 'The True Harry Potter Story',
+    'content' => 'Squashy armchairs dirt on your nose brass scales crush the
+    Sopophorous bean with flat side of silver dagger, releases juice better
+    than cutting. Full moon Whomping Willow three turns should do it lemon
+    drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter.
+    Witch Weekly, he will rise again and he will come for us, headmaster
+    Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many
+    would die for! <br>
+    <br>
+    Red hair crookshanks bludger Marauder’s Map Prongs sunshine daisies butter
+    mellow Ludo Bagman. Beaters gobbledegook N.E.W.T., Honeydukes eriseD inferi
+    Wormtail. Mistletoe dungeons Parseltongue Eeylops Owl Emporium expecto
+    patronum floo powder duel. Gillyweed portkey, keeper Godric’s Hollow
+    telescope, splinched fire-whisky silver Leprechaun O.W.L. stroke the spine.
+    Chalice Hungarian Horntail, catherine wheels Essence of Dittany Gringotts
+    Harry Potter. Prophecies Yaxley green eyes Remembrall horcrux hand of the
+    servant. Devil’s snare love potion Ravenclaw, Professor Sinistra
+    time-turner steak and kidney pie. Cabbage Daily Prophet letters from no one
+    Dervish and Banges leg. <br>
+    <br>
+    Toad-like smile Flourish and Blotts he knew I’d come back Quidditch World
+    Cup. Fat Lady baubles banana fritters fairy lights Petrificus Totalus. So
+    thirsty, deluminator firs’ years follow me 12 inches of parchment. Head Boy
+    start-of-term banquet Cleansweep Seven roaring lion hat. Unicorn blood
+    crossbow mars is bright tonight, feast Norwegian Ridgeback. Come seek us
+    where our voices sound, we cannot sing above the ground, Ginny Weasley
+    bright red. Fanged frisbees, phoenix tears good clean match.',
+    'author' => 'Voldemort',
     'publishedDate' => '2018-10-17',
     'likeCounter' => 54,
+    'img' => 'https://www.telegraph.co.uk/content/dam/books/2017/06/22/harry-potter-xlarge_trans_NvBQzQNjv4BqRx1QUjX2Eu_sBbDTbEJln9YjO2Jl1jFi7VIOwaiANGs.jpg',
   ],
   [
-    'title' => 'fake news',
-    'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Integer ut dolor arcu. Quisque eleifend vel ex luctus convallis. Cras
-    faucibus neque non rhoncus ultricies. Praesent ac placerat erat. Sed
-    tincidunt ultrices eros in varius. Cras id tellus pharetra, tempor lorem
-    vel, pulvinar nisi. Morbi id volutpat odio, nec ornare nulla. Donec quis
-    nisl eget neque ornare interdum in aliquam nunc. Nullam porta commodo eros,
-    vitae blandit felis tincidunt et. Etiam at tortor condimentum sem semper
-    egestas at convallis mi. Vestibulum volutpat varius nisi. Fusce hendrerit
-    venenatis arcu eget tristique.' . '<br>' .
-
-    'In eu sapien scelerisque, hendrerit lectus vel, semper nisl. Quisque
-    maximus, nibh nec ultricies ullamcorper, risus risus tincidunt dui,
-    imperdiet egestas ligula ipsum porta enim. Quisque ultrices magna vel
-    felis ullamcorper, sit amet dapibus odio condimentum. Nunc pretium, odio
-    eget pellentesque dictum, eros ipsum commodo dolor, in malesuada justo
-    purus et neque. Mauris tristique consequat nisl et pellentesque. Maecenas
-    imperdiet porta velit, quis fringilla augue mollis sit amet. Aliquam
-    lobortis, diam eu ornare venenatis, metus nunc blandit ligula, convallis
-    rhoncus augue arcu sed est. Nullam dignissim risus sed aliquam aliquam.
-    Proin at eros non neque iaculis mattis bibendum vitae nunc. Donec elementum
-    consequat malesuada. Suspendisse lacinia massa nec lorem blandit hendrerit.
-    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-    inceptos himenaeos. Maecenas in ultricies eros. Nullam iaculis nulla nec
-    condimentum fringilla. Nam sed arcu non orci semper mollis quis vitae
-    lectus. Aenean id arcu luctus, malesuada nisi blandit, condimentum
-    velit.' . '<br>' .
-
-    'Curabitur quis mi in dolor viverra ullamcorper aliquam sed est. Phasellus
-    mattis massa sed nunc vulputate, a euismod eros aliquam. Aenean congue
-    molestie faucibus. Integer pharetra interdum arcu non scelerisque. Nulla
-    facilisi. Sed vitae sodales mauris, sed tincidunt quam. Phasellus commodo
-    consectetur justo ac porta. Fusce dapibus risus est, sed placerat lorem
-    placerat in. Aenean in sagittis velit.' . '<br>' .
-
-    'Etiam at lectus pulvinar, feugiat turpis non, gravida felis. Proin pulvinar
-    mollis mauris quis dictum. Cras a volutpat orci. Proin feugiat, neque ac
-    commodo ultrices, arcu velit eleifend est, ac efficitur lacus augue iaculis
-    est. Maecenas sodales lorem eleifend, auctor sem nec, commodo diam.
-    Suspendisse gravida ipsum eu feugiat luctus. Curabitur scelerisque quam id
-    turpis vestibulum euismod. Aliquam at mauris non justo efficitur hendrerit
-    euismod a metus. Nullam non hendrerit metus. Fusce viverra nunc et eros
-    porta, sed feugiat nulla eleifend. Quisque hendrerit nulla imperdiet,
-    venenatis lorem sagittis, dapibus elit. Vestibulum at elit
-    nulla.' . '<br>' .
-
-    'Sed auctor, ligula vel faucibus tincidunt, orci sem sollicitudin nisi, quis
-    laoreet risus arcu sit amet leo. Maecenas lobortis quam at mauris varius
-    scelerisque. Sed ac imperdiet velit. Sed porttitor felis sem, nec rhoncus
-    magna condimentum aliquet. Donec ligula turpis, sollicitudin a odio sed,
-    fermentum suscipit metus. Nunc tincidunt fringilla interdum. Donec id
-    lobortis metus.',
-    'author' => 'hanna',
+    'title' => 'How Batman Spent His Christmas',
+    'content' => 'There is a prison in a more ancient part of the world. A pit
+    where men are thrown to suffer and die. But sometimes a man rises from the
+    darkness. Sometimes, the pit sends something back. <br>
+    Your anger gives you great power. But if you Iet it, it will destroy you as
+    it almost did me. <br>
+    <br>
+    Let me get this straight. You think that your client, one of the
+    wealthiest, most powerful men in the world is secretly a vigilante who
+    spends his nights beating criminals to a pulp with his bare hands and your
+    plan is to blackmail this person? Good luck. <br>
+    <br>
+    You wanna know how I got them? So I had a wife. She was beautiful, like
+    you, who tells me I worry too much, who tells me I ought to smile more, who
+    gambles and gets in deep with the sharks. Hey. One day they carve her face.
+    And we have no money for surgeries. She can\'t take it. I just wanna see
+    her smile again. I just want her to know that I don\'t care about the
+    scars. So, I do this to myself. And you know what? She can\'t stand the
+    sight of me. She leaves. Now I see the funny side. Now I\'m always
+    smiling. <br>
+    <br>
+    The first time I stole so that I wouldn\'t starve, yes. I lost many
+    assumptions about the simple nature of right and wrong. And when I traveled
+    I learned the fear before a crime and the thrill of success. But I never
+    became one of them. <br>
+    <br>
+    How can you move faster than possible, fight longer than possible, without
+    the most powerful impulse of the spirit? The fear of death. <br>
+    Breathe in your fears. Face them. To conquer fear, you must become fear.
+    You must bask in the fear of other men. And men fear most what they cannot
+    see. You have to become a terrible thought. A wraith. You have to become an
+    idea! Feel terror cloud your senses. Feel its power to distort. To control.
+    And know that this power can be yours. Embrace your worst fear. Become one
+    with the darkness.',
+    'author' => 'Lois Lane',
     'publishedDate' => '2018-10-17',
     'likeCounter' => 54,
+    'img' => 'https://nerdist.com/wp-content/uploads/2016/12/Batman-large.jpg',
   ],
   [
-    'title' => 'fake news',
-    'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Quisque finibus at sem et sodales. Etiam ut sodales massa. Pellentesque sit
-    amet lacus in purus ultrices pellentesque pellentesque et leo. Phasellus
-    rhoncus facilisis facilisis. Praesent vel ante metus. Quisque eget maximus
-    nulla. Phasellus varius, nisl ut dignissim tempor, quam enim sagittis leo,
-    id sagittis lectus ex sagittis ante. Integer vulputate, est vitae rutrum
-    sagittis, ipsum lacus sollicitudin mi, pharetra rhoncus leo lacus ac
-    ligula. Ut ut feugiat dolor. Mauris at velit scelerisque, gravida lectus
-    quis, tristique dui. Donec cursus pulvinar elit, a consequat purus.
-    Suspendisse sit amet molestie urna, et commodo leo. Fusce vel imperdiet
-    tortor. Nullam pretium ullamcorper nunc a rhoncus.' . '<br>' .
-
-    'Praesent viverra libero sit amet mauris mattis, ac vehicula lacus
-    hendrerit. Sed imperdiet ligula in est cursus, sit amet mattis ipsum
-    pulvinar. Integer ac varius dolor, ut ornare ipsum. Nunc volutpat varius mi
-    quis mollis. Suspendisse eget tincidunt lacus, id fermentum elit. Ut non
-    ligula sed nisi facilisis placerat. Vestibulum nibh libero, iaculis non
-    accumsan feugiat, luctus id elit. Mauris venenatis nunc ultricies varius
-    convallis. Integer volutpat efficitur semper. Nulla quis nisl non risus
-    auctor semper ac eu nibh. Fusce venenatis leo eu pellentesque feugiat.
-    Fusce at tortor lorem. Duis viverra mi elit, nec commodo nunc accumsan
-    eget.' . '<br>' .
-
-    'Mauris gravida quam mauris, sit amet blandit eros pulvinar vel. Aliquam
-    pulvinar nisl in velit imperdiet, et sagittis dolor pretium. Curabitur
-    luctus augue vitae laoreet sollicitudin. Nam id luctus tortor. Nulla
-    facilisi. Mauris ultricies lacus sit amet varius dapibus. Suspendisse
-    lobortis ligula ligula, nec gravida nibh gravida a. Curabitur eu libero
-    mollis dui commodo semper. Fusce semper, justo ut molestie faucibus, magna
-    tortor facilisis elit, at vehicula risus ipsum eu quam.' . '<br>' .
-
-    'Etiam dapibus ullamcorper felis vitae iaculis. Suspendisse potenti.
-    Praesent ultricies justo ut ligula tempus faucibus. Nulla id sagittis
-    lacus, eu fermentum diam. Nullam cursus, ligula vel consectetur iaculis,
-    tortor elit vulputate nibh, non tristique enim nulla quis lorem. Morbi
-    varius urna dolor, id sagittis ligula scelerisque in. Vivamus volutpat nisl
-    elit, eu facilisis justo efficitur et. Quisque sollicitudin dignissim purus
-    ac ultricies. Fusce hendrerit arcu vel imperdiet gravida. Duis nec metus
-    lacinia eros mollis aliquam. Integer lobortis ut sapien at rutrum. Donec
-    sed fermentum sapien. Curabitur aliquet sodales ligula, vel pellentesque
-    risus mattis vitae. Phasellus non tortor sed ipsum fermentum tempus. Aenean
-    sit amet arcu vitae orci tincidunt gravida.' . '<br>' .
-
-    'Donec et sapien nisi. Morbi posuere ante nec ante congue varius. Quisque
-    tincidunt gravida maximus. Donec sed libero molestie, pharetra lorem et,
-    posuere nibh. Sed pellentesque mi tempor dui tempor tempor. Sed volutpat
-    nisl a mattis faucibus. Vestibulum et elit ut lectus feugiat dignissim sed
-    vitae neque. Praesent ante arcu, tristique non neque et, varius convallis
-    eros. Donec nec diam bibendum, varius justo at, lobortis ligula.',
-    'author' => 'hanna',
+    'title' => 'Deadpools Taughts Is Just The Same As Ever',
+    'content' => 'Due to many complaints about a white man not being portrayed
+    as a villian, we put a fucking British guy instead. Somebody forgot to put
+    a black guy here...oops. Lorem ipsum is officially my bitch! If an ugly
+    fuck like me can get his girl to still him, you can also find love. Just
+    kidding! the real world is a cruel place. If your gf/bf hated you for
+    watching deadpool instead of doing something special, I\'m glad you dumped
+    them. Deadpool has now infiltrated the web, I shall now try to find where
+    that wimp spidey is hiding...and take him out.. to dinner I know my costume
+    looks really familiar to spidey\'s but he can only spray out sticky liquid
+    with his hands and cry. I know my costume looks really familiar to
+    spidey\'s but he can only spray out sticky liquid with his hands and
+    cry. <br>
+    <br>
+    You need more words? Here you go: Fuck, balls, ass, dick, tits! Lorem
+    ipsum.. what the fuck is that?? Who says I can\'t wryte!? People ask me why
+    Spidey also wears red, that\'s because he\'s my bitch. Stop looking for a
+    deep moral lesson in the Deadpool movies, the only thing you need to learn
+    is that you never kick a silver hulk in the nuts. <br>
+    <br>
+    Lorem ipsum is officially my bitch! If your gf/bf hated you for watching
+    deadpool instead of doing something special, I\'m glad you dumped them.
+    Lorem ipsum sounds something Loki would say in his dying breath. Probably
+    means "Fuck me". Lorem ipsum is officially my bitch! It’s not that I hate
+    wolverine, it’s just that If we’re both in a desert and I have a glass of
+    water, I’m going to drink it and pee on his bitch face. I\'m a smart ass
+    with a great ass. Beat that Superman.',
+    'author' => 'Lois Lane',
     'publishedDate' => '2018-10-17',
     'likeCounter' => 54,
+    'img' => 'https://nerdist.com/wp-content/uploads/2018/01/deadpool-5120x2880-american-superhero-4k-8k-hd-2728.jpg',
   ],
   [
-    'title' => 'fake news',
-    'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Suspendisse dictum purus sed eros accumsan, ut eleifend diam sagittis.
-    Mauris non diam lorem. Morbi pulvinar ultrices fermentum. Pellentesque
-    ornare at velit eu volutpat. Donec vel venenatis turpis. Donec eget
-    porttitor felis. Mauris eu finibus lacus. Donec mollis nec enim quis
-    mattis. Etiam faucibus odio eget nibh dictum ullamcorper. Quisque a tortor
-    a nisi pretium mollis. In pellentesque odio non nisl cursus ultricies. Sed
-    feugiat molestie nulla, id facilisis nunc pharetra non. Sed cursus arcu
-    vitae lacinia auctor. Etiam interdum eleifend augue elementum dictum. In
-    eget mauris nec diam porta placerat. Donec quam lacus, finibus et
-    ullamcorper et, aliquam ut mi.' . '<br>' .
-
-    'Maecenas congue sapien sit amet condimentum consectetur. Donec fermentum,
-    urna vitae viverra porttitor, orci risus condimentum lorem, a bibendum erat
-    justo eget urna. Mauris tincidunt nec dolor sed fringilla. Sed ultricies
-    ante ut ullamcorper fermentum. Proin ut libero auctor, convallis lectus ut,
-    sollicitudin sapien. Morbi mattis enim ac est ornare maximus. Cras in
-    dignissim nulla. Quisque iaculis dui non rutrum consectetur. Donec quis
-    tempus diam, eget eleifend tellus. Nullam pretium ultricies eros non
-    iaculis. In hac habitasse platea dictumst. Nulla nec nulla nec quam
-    suscipit facilisis vel ut risus.' . '<br>' .
-
-    'Aliquam at sem iaculis mi pharetra hendrerit. Aenean vitae odio sed urna
-    malesuada auctor. Cras augue purus, sagittis sed libero ut, posuere
-    tincidunt orci. Mauris non consequat tellus. Donec non pellentesque quam.
-    Maecenas tempor consectetur velit ac tempus. Duis sit amet egestas lorem,
-    sit amet sollicitudin nisi. Morbi porta mi ut orci pharetra ultrices.
-    Quisque tempus mi nec erat rutrum, non vestibulum nisi
-    consectetur.' . '<br>' .
-
-    'Maecenas sit amet vestibulum tortor, ut sollicitudin ligula. Aenean finibus
-    lacinia enim scelerisque gravida. Pellentesque at porta erat, quis bibendum
-    neque. Etiam nisl quam, semper sit amet tristique vitae, consectetur vitae
-    libero. Duis scelerisque mattis odio, in luctus est dictum a. Nam sed nisi
-    nec sem hendrerit laoreet. Maecenas gravida vulputate interdum. Integer
-    lacus quam, facilisis in sapien in, tempor vehicula ipsum. Nullam id nisl
-    eu sapien auctor dapibus eu sit amet risus. Maecenas mollis quis odio at
-    auctor.' . '<br>' .
-
-    'Integer ac est lorem. Nulla eu tristique leo. Quisque enim lorem, lobortis
-    eu lobortis a, mollis sit amet sem. Proin auctor malesuada sem a elementum.
-    Vivamus nibh turpis, consequat non erat sit amet, luctus dictum dui. Fusce
-    tortor velit, congue sit amet nunc et, euismod dignissim velit. Maecenas
-    blandit dapibus lorem, quis sodales nisl dapibus sed. Etiam vel augue
-    consectetur, mollis ligula ac, condimentum nunc. Nam aliquam sodales est
-    vitae porttitor. Proin sed posuere purus. In commodo massa vitae felis
-    tincidunt sodales. Quisque posuere maximus scelerisque. Proin sollicitudin
-    odio eu blandit fermentum. Nulla placerat quam est, in maximus sapien
-    sagittis et.',
-    'author' => 'hanna',
+    'title' => 'How I, Voldemort, took over the world!',
+    'content' => 'Red hair crookshanks bludger Marauder’s Map Prongs sunshine
+    daisies butter mellow Ludo Bagman. Beaters gobbledegook N.E.W.T.,
+    Honeydukes eriseD inferi Wormtail. Mistletoe dungeons Parseltongue Eeylops
+    Owl Emporium expecto patronum floo powder duel. Gillyweed portkey, keeper
+    Godric’s Hollow telescope, splinched fire-whisky silver Leprechaun O.W.L.
+    stroke the spine. Chalice Hungarian Horntail, catherine wheels Essence of
+    Dittany Gringotts Harry Potter. Prophecies Yaxley green eyes Remembrall
+    horcrux hand of the servant. Devil’s snare love potion Ravenclaw, Professor
+    Sinistra time-turner steak and kidney pie. Cabbage Daily Prophet letters
+    from no one Dervish and Banges leg. <br>
+    <br>
+    Thestral dirigible plums, Viktor Krum hexed memory charm Animagus
+    Invisibility Cloak three-headed Dog. Half-Blood Prince Invisibility Cloak
+    cauldron cakes, hiya Harry! Basilisk venom Umbridge swiveling blue eye
+    Levicorpus, nitwit blubber oddment tweak. Chasers Winky quills The Boy Who
+    Lived bat spleens cupboard under the stairs flying motorcycle. Sirius Black
+    Holyhead Harpies, you’ve got dirt on your nose. Floating candles Sir
+    Cadogan The Sight three hoops disciplinary hearing. Grindlewald pig’s tail
+    Sorcerer\'s Stone biting teacup. Side-along dragon-scale suits Filch 20
+    points, Mr. Potter. <br>
+    <br>
+    Prefect’s bathroom Trelawney veela squashy armchairs, SPEW: Gamp’s
+    Elemental Law of Transfiguration. Magic Nagini bezoar, Hippogriffs Headless
+    Hunt giant squid petrified. Beuxbatons flying half-blood revision schedule,
+    Great Hall aurors Minerva McGonagall Polyjuice Potion. Restricted section
+    the Burrow Wronski Feint gnomes, quidditch robes detention, chocolate
+    frogs. Errol parchment knickerbocker glory Avada Kedavra Shell Cottage
+    beaded bag portrait vulture-hat. Twin cores, Aragog crimson gargoyles, Room
+    of Requirement counter-clockwise Shrieking Shack. Snivellus second floor
+    bathrooms vanishing cabinet Wizard Chess, are you a witch or not? <br>
+    <br>
+    Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean
+    with flat side of silver dagger, releases juice better than cutting. Full
+    moon Whomping Willow three turns should do it lemon drops. Locomotor trunks
+    owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise
+    again and he will come for us, headmaster Erumpent horn. Fenrir Grayback
+    horseless carriages ‘zis is a chance many would die for!',
+    'author' => 'Voldemort',
     'publishedDate' => '2018-10-17',
     'likeCounter' => 54,
+    'img' => 'http://rebel-scum.com/images/uploads/news/voldemort_harry_potter.jpg',
   ],
   [
-    'title' => 'fake news',
-    'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Suspendisse non diam convallis nibh lobortis venenatis sed ut risus. Duis
-    ullamcorper sagittis mauris ut auctor. Sed sit amet lacus tincidunt turpis
-    volutpat fringilla et quis dolor. Morbi id dui eu nisl malesuada ultrices.
-    Suspendisse potenti. Vivamus nisi enim, imperdiet et finibus et, ultrices
-    id nunc. Donec feugiat sapien metus, porta facilisis dui pulvinar et. Donec
-    varius eros quis est gravida, ut finibus mi rutrum. Sed efficitur aliquet
-    ante, et pulvinar est finibus finibus. Aenean fringilla sollicitudin
-    libero, et consectetur purus dictum quis. Integer neque nibh, mattis
-    iaculis rhoncus at, commodo consectetur libero. Curabitur eu lacus quis
-    massa gravida malesuada non at ipsum. Vestibulum posuere arcu sed est
-    malesuada pretium.' . '<br>' .
-
-    'Maecenas dui turpis, mollis vel est nec, tincidunt bibendum diam. Fusce
-    auctor at tellus eget pellentesque. Sed tincidunt bibendum odio, ultricies
-    commodo ipsum aliquet sit amet. Vivamus consectetur lacinia odio id
-    placerat. Donec ut eleifend ligula, at tincidunt augue. Sed sit amet velit
-    eros. Suspendisse aliquet purus nulla, in elementum nisl porttitor
-    suscipit. Morbi ut semper nibh. Nam at sapien id velit sagittis hendrerit
-    vitae quis tellus. Nunc et congue nulla.' . '<br>' .
-
-    'Sed ut arcu varius, dignissim urna at, ultrices enim. Ut lectus mauris,
-    sodales vel sem nec, viverra bibendum elit. Proin nec tortor quis nunc
-    porttitor lacinia ut eget magna. Donec pretium nunc tellus, vel lobortis
-    sem semper ultricies. Nulla eget sem ut tortor condimentum fringilla. Fusce
-    tristique metus nunc, et vulputate nibh ultricies pretium. Nunc at interdum
-    diam. Cras commodo scelerisque mollis. In ex nisl, ullamcorper ac
-    scelerisque non, viverra et purus. Donec malesuada, eros ut tincidunt
-    sagittis, mi nunc sagittis quam, vitae pharetra sapien metus nec dolor.
-    Mauris posuere sapien ac dui porttitor dapibus. Duis pulvinar eget est quis
-    malesuada. Phasellus non lacus fringilla, bibendum elit vel, lacinia erat.
-    Nulla et erat cursus, egestas lacus ut, tincidunt nunc. Aenean rutrum
-    elementum sagittis.' . '<br>' .
-
-    'Phasellus eu nulla aliquam, mattis neque vulputate, eleifend arcu. Vivamus
-    posuere libero nulla, vel faucibus ligula vulputate sit amet. Sed ac nisi
-    molestie lorem ornare viverra. Pellentesque habitant morbi tristique
-    senectus et netus et malesuada fames ac turpis egestas. Morbi ultrices
-    risus quis nisl euismod molestie. Ut luctus, massa in ornare commodo, nulla
-    purus pellentesque odio, sed fringilla felis risus ac nibh. Aenean ultrices
-    nisl vitae elit placerat euismod. Donec urna diam, mattis vel elit sed,
-    accumsan efficitur eros. In vel malesuada dolor, eu mattis mauris. Nullam
-    consectetur pellentesque quam, a aliquet purus fringilla at. Sed sed
-    commodo arcu, fringilla varius turpis. Vestibulum consequat sollicitudin
-    vulputate. Aliquam interdum augue justo, at ultricies felis mollis id.
-    Suspendisse ut porta enim, in lacinia lectus. Vestibulum ante ipsum primis
-    in faucibus orci luctus et ultrices posuere cubilia Curae;' . '<br>' .
-
-    'Phasellus tristique tortor sit amet turpis tincidunt, a pretium lorem
-    aliquam. Donec suscipit lacus non purus molestie tincidunt. Pellentesque
-    dictum maximus ornare. Aliquam sit amet massa non massa imperdiet fringilla
-    vitae eu tellus. Nam quam nisi, aliquam eget tellus et, imperdiet euismod
-    quam. Proin tempus ipsum vel augue gravida, et tristique orci pulvinar.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat
-    iaculis dolor vel varius. Nullam eleifend semper eros at dignissim. Class
-    aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-    himenaeos. Nullam finibus molestie est, suscipit fringilla quam condimentum
-    at. Suspendisse quis pellentesque magna, id euismod magna. Curabitur
-    volutpat ipsum quis tellus tempor, at suscipit urna lacinia. Quisque
-    finibus congue urna nec dignissim. Donec sagittis ullamcorper efficitur.',
-    'author' => 'hanna',
+    'title' => 'Cheeses!',
+    'content' => 'Emmental lancashire cheesecake. Cheesy grin swiss cheese and
+    wine bocconcini roquefort cheesy feet bavarian bergkase camembert de
+    normandie. Swiss fromage frais who moved my cheese cream cheese bavarian
+    bergkase cottage cheese the big cheese cheese triangles. Cream cheese queso
+    blue castello cheese and biscuits edam hard cheese. <br>
+    Everyone loves who moved my cheese red leicester. Everyone loves brie
+    manchego mascarpone cut the cheese everyone loves stinking bishop bavarian
+    bergkase. Rubber cheese macaroni cheese parmesan who moved my cheese say
+    cheese brie cheese and wine fondue. Fondue gouda red leicester babybel
+    smelly cheese lancashire halloumi. <br>
+    Gouda cheese triangles brie. Cheese triangles cottage cheese cheese and
+    biscuits cheesecake rubber cheese camembert de normandie fromage frais
+    caerphilly. Fondue goat the big cheese edam st. agur blue cheese cheese and
+    biscuits cheeseburger paneer. Feta airedale port-salut gouda the big cheese
+    monterey jack cheesy grin cottage cheese. Chalk and cheese. <br>
+    Brie fromage frais cheese on toast. Chalk and cheese fromage frais cottage
+    cheese who moved my cheese hard cheese emmental jarlsberg mozzarella.
+    Fromage frais camembert de normandie st. agur blue cheese taleggio
+    cheesecake roquefort blue castello the big cheese. Cheese and biscuits goat
+    melted cheese. <br>
+    Bocconcini cottage cheese parmesan. Queso st. agur blue cheese jarlsberg
+    mascarpone camembert de normandie chalk and cheese cheddar pepper jack.
+    Cheese slices pecorino jarlsberg cheesy grin port-salut cheese slices cut
+    the cheese the big cheese. Stilton who moved my cheese stilton babybel
+    parmesan cheese on toast.',
+    'author' => 'Edward Blom',
     'publishedDate' => '2018-10-17',
     'likeCounter' => '54',
+    'img' => 'https://cdn1.medicalnewstoday.com/content/images/articles/299/299147/cheese-varieties.jpg',
   ],
   [
-    'title' => 'fake news',
-    'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-    suscipit leo augue, in iaculis tortor dictum et. Nullam pellentesque,
-    mauris vel finibus auctor, massa nisi volutpat orci, vitae convallis quam
-    nulla vel tellus. Sed porta, nunc et sollicitudin cursus, odio libero
-    fermentum nisl, at pretium massa nisl vel libero. Praesent lectus dolor,
-    convallis ut venenatis vitae, euismod ac ligula. Nam tristique nulla quis
-    massa facilisis posuere. Cras sit amet elementum ante, ut rhoncus libero.
-    Pellentesque laoreet gravida purus, ut aliquam est volutpat vel. Vestibulum
-    cursus mauris leo, vitae sollicitudin est varius at. Ut hendrerit diam non
-    tortor cursus scelerisque. Etiam euismod nibh eget nibh sagittis, nec
-    dictum quam imperdiet. Ut efficitur ex quis tellus tempor, nec consectetur
-    ante ornare. Etiam varius placerat mauris non sagittis.' . '<br>' .
-
-    'Ut sagittis erat eget rhoncus bibendum. Vivamus semper massa eget turpis
-    tempus, id sollicitudin dolor scelerisque. Fusce venenatis a felis a
-    congue. Phasellus aliquam vestibulum eleifend. Curabitur vehicula odio at
-    arcu dictum, a tempus dolor finibus. Maecenas auctor aliquam est in
-    pulvinar. Suspendisse porttitor vehicula odio, at ultrices enim congue
-    ultrices. Nunc vel mauris quis quam efficitur dictum et eget ex. Praesent
-    convallis euismod nulla, at finibus nulla molestie id. Nam felis risus,
-    dictum maximus aliquet at, faucibus sit amet mauris. Pellentesque lobortis
-    aliquam leo sit amet tincidunt. Duis nec eros ipsum.' . '<br>' .
-
-    'Maecenas ullamcorper varius ullamcorper. Vestibulum placerat est ligula, ut
-    porta ligula mattis ut. Vivamus justo nulla, viverra eu ligula a, molestie
-    semper urna. Sed sed tortor congue, scelerisque ante ac, rhoncus massa.
-    Duis aliquet lectus tellus. Etiam maximus odio ante, elementum dictum erat
-    tristique vel. Suspendisse faucibus ex in vehicula vehicula. Vestibulum
-    convallis nisi ut arcu rhoncus, ut tristique nibh luctus. Sed id aliquam
-    neque. Praesent tortor lorem, posuere sit amet gravida eget, accumsan quis
-    turpis. Proin bibendum metus ut accumsan consequat. Suspendisse potenti.
-    Aenean in sem rhoncus, posuere sapien eget, fringilla nulla. Phasellus nibh
-    ligula, molestie quis hendrerit a, feugiat sit amet purus. Etiam lorem ex,
-    sagittis ac semper nec, vehicula sed velit.' . '<br>' .
-
-    'Mauris eget elit ligula. Aliquam vitae lacinia ligula, et hendrerit leo.
-    Praesent vel est a ante fermentum pharetra. Praesent id sapien vel mi
-    sodales consequat vitae et justo. Vestibulum pharetra rutrum enim mattis
-    imperdiet. Nam ut euismod tellus. Duis in eros sodales, convallis nulla
-    rutrum, luctus dui. Sed eget feugiat arcu, a rhoncus nibh. Vestibulum
-    pulvinar ligula eget risus molestie, vestibulum finibus ante rutrum.
-    Pellentesque quis ligula tempor metus facilisis dignissim at ac
-    felis.' . '<br>' .
-
-    'Suspendisse tellus augue, aliquam nec pellentesque non, eleifend et ligula.
-    Aliquam id risus libero. Nunc dictum varius dui, vel dapibus velit dapibus
-    eget. Vivamus molestie leo vel cursus ullamcorper. Ut luctus metus id diam
-    placerat, non laoreet risus rhoncus. Integer tempor mauris a commodo
-    congue. Morbi a tempus arcu. Pellentesque et dignissim arcu.',
-    'author' => 'hanna',
+    'title' => 'Why dogs are the best',
+    'content' => 'Doggo ipsum you are doing me a frighten heckin good boys and
+    girls fat boi heckin good boys pats aqua doggo, super chub smol length boy
+    boofers. Many pats heckin very hand that feed shibe pupper yapper pupper,
+    doing me a frighten thicc clouds long water shoob. You are doing me a
+    frighten pupper heckin good boys pupperino length boy, blep ruff very
+    jealous pupper. Sub woofer long woofer you are doing me a frighten
+    shooberino dat tungg tho big ol pupper what a nice floof, long doggo wow
+    very biscit pupperino pupper. Doing me a frighten sub woofer blop very hand
+    that feed shibe porgo boofers, big ol pupper blep woofer heckin. shoob
+    shibe borking doggo. Shoober shibe long bois what a nice floof big ol, smol
+    borking doggo with a long snoot for pats woofer. Snoot many pats pats
+    woofer very good spot, smol very jealous pupper. <br>
+    <br>
+    Corgo long bois wow such tempt smol borking doggo with a long snoot for
+    pats many pats, long woofer pupper long bois. the neighborhood pupper.
+    Shibe long water shoob very jealous pupper, shoob. Long doggo wrinkler aqua
+    doggo such treat, big ol. Wrinkler wow such tempt aqua doggo long bois
+    pupperino thicc, borking doggo aqua doggo mlem maximum borkdrive. Clouds
+    thicc yapper big ol, doge wow such tempt. <br>
+    Big ol sub woofer very taste wow, length boy. Pupper you are doin me a
+    concern dat tungg tho heckin good boys dat tungg tho very hand that feed
+    shibe very jealous pupper floofs tungg, heckin good boys and girls long
+    bois shibe long water shoob big ol aqua doggo. Porgo long bois puggo vvv
+    lotsa pats, corgo h*ck. You are doing me a frighten aqua doggo shoober much
+    ruin diet thicc, heckin good boys and girls clouds long bois. Noodle horse
+    blop long water shoob, pupperino. Doing me a frighten waggy wags big ol
+    pupper boof big ol, most angery pupper I have ever seen pupperino. Fluffer
+    such treat porgo, you are doing me a frighten. Ruff doing me a frighten
+    heckin borkdrive boof, heckin angery woofer long doggo. Doggo extremely
+    cuuuuuute doggorino heckin good boys and girls puggo wow such tempt, ur
+    givin me a spook heckin fat boi thicc, you are doin me a concern shooberino
+    smol maximum borkdrive. You are doing me the shock shoob heckin good boys
+    vvv very taste wow, porgo mlem fat boi.',
+    'author' => 'Scooby Doo',
     'publishedDate' => '2018-10-17',
     'likeCounter' => 54,
+    'img' => 'https://peopledotcom.files.wordpress.com/2018/01/dog-poo.jpg',
   ],
   [
-    'title' => 'fake news',
-    'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Etiam nec nunc eget dui pellentesque laoreet. Nullam non commodo odio.
-    Curabitur et elit non lectus cursus molestie quis nec massa. Nam nec velit
-    luctus, accumsan purus eu, dignissim libero. Donec eu mi in metus lacinia
-    efficitur. In eu libero odio. Donec hendrerit volutpat dolor facilisis
-    venenatis. Mauris gravida a nibh sit amet pellentesque. Fusce eleifend orci
-    at turpis ultrices lacinia. Ut tincidunt nulla quis nibh gravida, sed
-    auctor diam lobortis.' . '<br>' .
-
-    'Nunc erat dui, interdum vel finibus non, faucibus eget dui. In hac
-    habitasse platea dictumst. Donec scelerisque volutpat imperdiet. Vestibulum
-    vestibulum gravida ex ut cursus. Duis feugiat rutrum mi, eget sodales leo
-    lacinia convallis. Sed viverra posuere urna, id efficitur ex. Phasellus in
-    erat nec erat laoreet cursus. Mauris et leo elementum metus malesuada
-    rhoncus.' . '<br>' .
-
-    'Sed vestibulum turpis in consectetur varius. Praesent at tincidunt lectus.
-    Aliquam urna turpis, imperdiet eu quam in, finibus pharetra diam. Class
-    aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-    himenaeos. Duis lobortis ut elit sed sollicitudin. Mauris dui magna,
-    venenatis vel justo quis, fermentum tristique nibh. Nulla feugiat, nisi sed
-    tincidunt fringilla, mauris lectus fringilla nisl, ut lacinia urna enim nec
-    leo. Donec tempus felis ut efficitur condimentum. Nullam semper, magna ac
-    facilisis lacinia, metus nisi eleifend libero, nec elementum libero neque
-    at quam. Fusce eget tristique tellus. Integer fermentum vestibulum diam vel
-    euismod. Proin vel mauris sit amet elit molestie condimentum sit amet sit
-    amet ipsum.' . '<br>' .
-
-    'Quisque nunc tellus, ultricies at auctor eget, convallis viverra purus.
-    Nullam tempor felis in egestas tristique. Vestibulum ac nunc et felis
-    facilisis dictum. Phasellus venenatis pulvinar dolor eget eleifend. Donec
-    non neque justo. Maecenas eleifend pharetra est, eget maximus lectus congue
-    ut. Suspendisse eu dignissim velit, ut vestibulum tellus. Duis aliquam
-    ligula sed lobortis rutrum. Nunc sed pulvinar urna, elementum laoreet est.
-    Suspendisse sem tortor, auctor vitae eros in, varius hendrerit urna. Nunc
-    varius scelerisque nisi ultricies laoreet. Nulla et porttitor arcu, quis
-    volutpat libero. Cras maximus, enim nec imperdiet tempor, lectus nisl
-    pellentesque libero, sit amet rhoncus nunc quam id risus. Integer lorem
-    dolor, suscipit sed facilisis sed, pellentesque nec diam.' . '<br>' .
-
-    'Nulla facilisi. Fusce ac erat mi. Mauris in eleifend risus. Duis auctor
-    turpis vitae commodo volutpat. Praesent placerat eros at metus tincidunt,
-    quis malesuada nunc pellentesque. Maecenas congue a ipsum non malesuada.
-    Aenean hendrerit nisl vel nibh consectetur, sit amet pretium turpis
-    tempus.',
-    'author' => 'hanna',
+    'title' => 'Captain Jack Sparrow Fell Overboard!',
+    'content' => 'Lad clap of thunder warp starboard hail-shot long boat
+    American Main jury mast chase guns squiffy. Handsomely swing the lead bilge
+    rat Blimey me lookout nipper Corsair six pounders aft. Square-rigged six
+    pounders chandler Jack Ketch Plate Fleet bring a spring upon her cable
+    sheet smartly cable lee. <br>
+    <br>
+    Rope\'s end killick furl Davy Jones\' Locker red ensign ballast code of
+    conduct overhaul measured fer yer chains lugger. Trysail squiffy snow
+    salmagundi list Yellow Jack to go on account broadside run a rig gabion.
+    Rope\'s end lad ye line hands draught jib hang the jib loot flogging. <br>
+    <br>
+    Spanker hail-shot Sail ho rum lee bounty crack Jennys tea cup aye Privateer
+    prow. Black jack crow\'s nest squiffy provost chantey broadside furl gibbet
+    chase guns main sheet. Ho draft Plate Fleet Jack Ketch trysail parrel
+    strike colors fore spyglass haul wind. <br>
+    <br>
+    Main sheet gangplank league scurvy to go on account long clothes landlubber
+    or just lubber red ensign bilge water Corsair. Wench tack tender haul wind
+    Admiral of the Black fire ship coxswain pirate Sink me splice the main
+    brace. Fire ship jib log hempen halter coffer bilge water Shiver me timbers
+    sloop hogshead fathom. <br>
+    <br>
+    Barque haul wind boatswain cog fathom parley marooned Brethren of the Coast
+    scallywag pirate. Gangplank gibbet chase guns Spanish Main belay splice the
+    main brace spirits swab flogging main sheet. Corsair Jack Ketch schooner
+    Brethren of the Coast black spot matey belay lookout spyglass swab. <br>
+    <br>
+    Draft keel schooner jolly boat pinnace tack careen rutters scallywag jib.
+    Gibbet Gold Road provost coffer mizzenmast fluke draught stern lookout
+    man-of-war. Wench fluke rutters Plate Fleet clipper gibbet capstan Pieces
+    of Eight topsail Buccaneer.',
+    'author' => 'Black Beard',
     'publishedDate' => '2018-10-17',
     'likeCounter' => 54,
+    'img' => 'https://i.redd.it/v2jkbnhf82ez.png',
   ],
   [
-    'title' => 'fake news',
-    'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Nullam ac enim massa. Cras placerat ultricies diam eget imperdiet. Nam
-    consectetur nulla id orci molestie, placerat tincidunt velit vulputate.
-    Maecenas molestie, quam et fringilla facilisis, nisl neque tempor nulla,
-    eget malesuada nisi ex scelerisque nisi. Vivamus dictum sollicitudin felis,
-    et sagittis enim sagittis et. Morbi eget mauris id libero maximus
-    ultricies. Nulla tristique mauris et imperdiet posuere. Ut lectus quam,
-    tristique a lectus feugiat, dictum gravida metus. Fusce iaculis placerat
-    dolor id facilisis.' . '<br>' .
-
-    'Phasellus egestas lacus vel tempor blandit. Aenean eget fringilla tortor.
-    Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed
-    ullamcorper nisi imperdiet malesuada porttitor. Suspendisse hendrerit, ex a
-    imperdiet scelerisque, nisl augue aliquam diam, vitae maximus sapien ex a
-    arcu. Praesent ut lectus eleifend, blandit tellus sit amet, venenatis
-    metus. Vestibulum quis est eu ipsum condimentum finibus. Donec tempor risus
-    vitae magna rutrum semper sit amet molestie lacus.' . '<br>' .
-
-    'Nullam ornare nunc orci, ut volutpat lectus bibendum ut. Vestibulum
-    malesuada ipsum dignissim lectus tincidunt, vel venenatis enim bibendum.
-    Suspendisse gravida arcu at egestas dictum. Proin in gravida felis. Sed sed
-    sem posuere, venenatis tellus porta, gravida urna. Interdum et malesuada
-    fames ac ante ipsum primis in faucibus. Morbi porta fringilla pellentesque.
-    Vestibulum eget mauris congue, convallis lacus vel, accumsan augue. Nulla
-    facilisi. Suspendisse sem sapien, luctus id tincidunt non, facilisis at
-    tortor. Ut in purus sit amet ex elementum dignissim. Mauris at mauris sed
-    est semper viverra.' . '<br>' .
-
-    'Integer suscipit malesuada odio, eu porta massa viverra quis. Sed
-    sollicitudin augue id tincidunt facilisis. Vestibulum quis arcu ut leo
-    porta ornare. Integer posuere sem sit amet leo volutpat, accumsan interdum
-    nisi vestibulum. Vivamus aliquet id dolor sit amet pharetra. Nulla lobortis
-    eros at purus condimentum, non volutpat tellus dapibus. Mauris in
-    sollicitudin purus, et vulputate nunc.' . '<br>' .
-
-    'Fusce ut lectus at augue luctus sodales. Sed id blandit magna, in dictum
-    lacus. Nam ut tellus arcu. Morbi in mauris non leo mattis volutpat. Proin
-    non sem auctor, vestibulum erat et, aliquet eros. Pellentesque habitant
-    morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-    Mauris mattis eu odio tempus dignissim. Curabitur fermentum, turpis nec
-    ultricies vulputate, orci elit porttitor lacus, mollis mollis nunc urna ut
-    tellus. Etiam bibendum, elit volutpat consectetur suscipit, justo elit
-    cursus mi, eu varius metus velit nec sapien. Duis quis ullamcorper velit.
-    Maecenas eu ex sollicitudin, commodo arcu sit amet, pulvinar nisi.',
-    'author' => 'hanna',
+    'title' => 'How Captain Jack Sparrow Acctually Escaped The Abandond Island',
+    'content' => 'Fluke lass draught black jack scuttle gangway hardtack
+    Brethren of the Coast line scuppers. Strike colors yardarm shrouds lad six
+    pounders reef sails come about sheet hearties measured fer yer chains. Blow
+    the man down mizzenmast lugger jolly boat spyglass knave wherry prow stern
+    coxswain. <br>
+    Jack Ketch bilged on her anchor lee clap of thunder Buccaneer nipperkin
+    gangplank keelhaul rutters fathom. Hardtack gangway Yellow Jack bounty
+    bilged on her anchor nipperkin chase guns belaying pin hail-shot fore.
+    Driver chase guns list swab fluke Arr furl Pirate Round draught blow the
+    man down. <br>
+    <br>
+    Lugger Davy Jones\' Locker Sink me parley trysail keel brig aye hogshead
+    Plate Fleet. List red ensign scuttle Yellow Jack walk the plank fathom
+    Buccaneer hardtack lee chantey. Reef sails list bilged on her anchor
+    hail-shot jury mast me league belay gangplank lass. <br>
+    <br>
+    Cable warp hogshead hail-shot Sail ho chase topgallant haul wind hulk fore.
+    Main sheet holystone furl gally marooned boom bilge loaded to the gunwalls
+    Jolly Roger grog. Yardarm mizzen interloper scurvy hempen halter Jack Ketch
+    fluke Cat o\'nine tails chantey aye. <br>
+    <br>
+    Keel lugger ballast squiffy barkadeer strike colors Shiver me timbers
+    heave down Gold Road grog blossom. Bounty furl fire in the hole prow
+    trysail Plate Fleet gally bilged on her anchor Nelsons folly piracy. Blimey
+    brigantine overhaul black jack pressgang mizzenmast tender scurvy line
+    draft. <br>
+    Mizzen gibbet knave hornswaggle case shot Plate Fleet belaying pin
+    man-of-war scallywag fire in the hole. Dance the hempen jig warp clap of
+    thunder Admiral of the Black bilge Sink me swab interloper lee crimp.
+    Letter of Marque rope\'s end deadlights grog grapple belay bilge water
+    topgallant bilged on her anchor scourge of the seven seas.',
+    'author' => 'Black Beard',
     'publishedDate' => '2018-10-17',
     'likeCounter' => 54,
+    'img' => 'https://i3.wp.com/i.stack.imgur.com/LgK2A.jpg',
   ],
   [
-    'title' => 'fake news',
-    'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-    vulputate turpis enim, at egestas tellus imperdiet eu. Curabitur feugiat
-    risus sit amet mollis bibendum. Nunc in ipsum hendrerit, mattis mi at,
-    sagittis mi. Vestibulum ante ipsum primis in faucibus orci luctus et
-    ultrices posuere cubilia Curae; Aliquam et accumsan eros. Sed vel
-    condimentum erat. Nulla sit amet ligula felis. Morbi ornare tristique
-    cursus. Quisque egestas dignissim risus, vel viverra mi aliquam id.
-    Praesent tincidunt interdum est et porta. Mauris facilisis pretium nisl id
-    sollicitudin. Nunc vulputate dolor mauris. Vivamus ultricies erat viverra,
-    viverra nisl a, lacinia ex. Morbi pharetra justo augue, sit amet vestibulum
-    mi mattis at.' . '<br>' .
-
-    'Nulla vehicula ornare dui, et sagittis nibh rutrum eget. Praesent luctus,
-    ligula sit amet venenatis viverra, purus mi porttitor lorem, sed posuere
-    augue dui ac mauris. Curabitur quis ex justo. In blandit ultrices dui, vel
-    dignissim dui hendrerit vel. Ut nulla nibh, mattis lobortis ante non,
-    placerat hendrerit purus. Aliquam iaculis in turpis vel tempor. Maecenas
-    ultricies maximus interdum. Pellentesque tincidunt mi felis, at dictum nunc
-    malesuada sed. Etiam at cursus diam, et bibendum sem. Cras leo nisi,
-    ullamcorper at tincidunt id, rhoncus tempor massa.' . '<br>' .
-
-    'Duis semper odio at est tempus, et convallis risus pulvinar. Nunc eu lacus
-    et nisl venenatis aliquam id et ex. Quisque blandit orci in ex consequat
-    fringilla. Integer viverra ante non sem semper tristique. Donec quis arcu
-    justo. Ut eleifend pretium eleifend. Quisque ligula turpis, sollicitudin
-    vel porttitor non, dictum in lacus. Nullam lectus est, maximus id velit at,
-    consectetur aliquet leo. Vestibulum risus justo, bibendum at ornare quis,
-    aliquam id dolor. Sed pharetra, libero id posuere accumsan, leo velit
-    molestie lorem, nec ultricies eros dui facilisis leo. Curabitur ornare
-    massa eget scelerisque bibendum.' . '<br>' .
-
-    'Duis a enim sed mauris sagittis accumsan sed id mi. Sed vel mollis tellus,
-    eu sollicitudin ante. Class aptent taciti sociosqu ad litora torquent per
-    conubia nostra, per inceptos himenaeos. Etiam rhoncus quam a justo aliquet,
-    eu vehicula arcu faucibus. Phasellus sem dui, dignissim at vestibulum ac,
-    pretium a ligula. In blandit tristique tincidunt. Praesent in lacus tortor.
-    Quisque eu convallis odio, in porta est. Aliquam ac maximus sapien.
-    Maecenas non consequat magna. Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Cras sagittis vulputate nibh id congue. Maecenas urna
-    eros, ornare commodo vulputate eget, finibus ut orci. Sed tincidunt, neque
-    id mattis tincidunt, velit tortor venenatis nulla, dignissim egestas ante
-    arcu sit amet dolor. Vestibulum ultrices, leo at ornare blandit, mi ex
-    finibus sapien, quis mollis mi nisl sit amet ex. Nam pharetra erat felis,
-    quis rhoncus mauris tempus ut.' . '<br>' .
-
-    'Fusce condimentum mattis est nec vulputate. Nunc sit amet rutrum leo. Sed
-    pellentesque pretium magna, in eleifend elit venenatis vel. Sed ut elit sed
-    metus sodales consequat ut sed sem. Duis imperdiet, quam at dapibus
-    fermentum, massa libero efficitur eros, non sodales nunc elit non massa.
-    Quisque libero elit, euismod eget nulla nec, accumsan sagittis quam. Cras
-    consequat vestibulum sem, a venenatis sapien aliquam at. Ut ut diam varius,
-    vulputate purus vel, pulvinar odio. Aliquam erat volutpat. Curabitur porta
-    aliquam velit, vel varius libero tincidunt ac. Curabitur rutrum ante ante,
-    ut pharetra ex lobortis vel. Praesent vulputate, velit vitae venenatis
-    iaculis, nibh mi ultricies tortor, ut cursus augue magna vitae leo.',
-    'author' => 'hanna',
+    'title' => 'I am In Love With Cheeseburgers',
+    'content' => 'Epic cheeseburgers come in all kinds of manifestations, but
+    we want them in and around our mouth no matter what. Slide those smashed
+    patties with the gently caramelized meat fat between a toasted brioche bun
+    and pass it over. You fall in love with the cheeseburger itself but the
+    journey ain’t half bad either. <br>
+    <br>
+    They’re the childhood friend that knows your highest highs and lowest lows.
+    They’ve been with you through thick and thin and they’re the best at
+    keeping secrets. Whether it’s dressed up or informal, cheeseburgers have
+    your back. <br>
+    <br>
+    Sometimes we lose sight of what really matters in life. There’s something
+    to be said for a gourmet brie and truffle burger paired with parmesan
+    frites, but don’t let that make you forget about the ol’ faithful with
+    American cheddar and a squishy bun. Lettuce remind you that cheeseburgers
+    come in all forms - bun intended. <br>
+    <br>
+    Pop quiz: what’s the greatest thing to happen to your mind, body, and soul
+    in recent history? A cheeseburger, obviously. Cheeseburgers know that what
+    you want can also be what you need.',
+    'author' => 'Scooby Doo',
     'publishedDate' => '2018-10-17',
     'likeCounter' => 54,
+    'img' => 'https://i.pinimg.com/originals/5c/cc/1e/5ccc1e18dbd213014c0c0b2fc93be601.jpg',
   ],
   [
-    'title' => 'fake news',
-    'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Mauris quis vulputate metus. In gravida tempus nibh, at tincidunt enim
-    rutrum a. Morbi feugiat et ipsum in congue. Vestibulum facilisis risus
-    risus, ac porttitor ligula tristique vel. Vestibulum sed vestibulum est,
-    non facilisis lorem. Suspendisse enim justo, pharetra sed neque sed,
-    dapibus interdum odio. Donec lacinia, enim nec elementum vestibulum, massa
-    mauris imperdiet nulla, sit amet pretium arcu justo eget neque. Orci varius
-    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Sed ultrices nulla turpis, a sagittis velit dignissim ut.' . '<br>' .
-
-    'Maecenas sed fermentum sem. Etiam a leo consectetur, pellentesque metus eu,
-    viverra sem. Pellentesque non nisi vel ex pellentesque mollis et ut neque.
-    Phasellus tristique, sapien a aliquet rutrum, diam neque porttitor dui, ac
-    hendrerit nibh lacus id tortor. Ut sit amet risus ex. Praesent ornare ante
-    metus, vel sollicitudin est dictum a. Mauris blandit posuere massa vel
-    scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia
-    nostra, per inceptos himenaeos. In sem eros, egestas iaculis mauris in,
-    tempor dictum libero. Nunc libero mi, faucibus et enim eu, suscipit
-    imperdiet ante. Donec vitae lorem a tortor dignissim commodo. Nulla
-    facilisi. Quisque auctor ac metus a suscipit. Aliquam mattis convallis
-    laoreet.' . '<br>' .
-
-    'Duis nec justo in lorem blandit tristique. Nullam fringilla erat vitae enim
-    sodales, nec ullamcorper elit bibendum. Nulla faucibus tincidunt rhoncus.
-    Sed at aliquam lorem. Nulla facilisi. Nulla facilisi. Nulla facilisi. Ut
-    ullamcorper elit gravida tortor rhoncus tempus. Cras molestie molestie
-    massa, et dapibus massa condimentum quis. Pellentesque tristique erat
-    ipsum, a imperdiet nibh lacinia nec. Etiam at feugiat odio, eget semper
-    nibh.' . '<br>' .
-
-    'Fusce aliquet rhoncus leo eu fringilla. Nunc vitae elit ac quam feugiat
-    pellentesque vitae ac ligula. Proin imperdiet sem imperdiet sem ultrices,
-    sed tristique dolor suscipit. Nunc sit amet elit dictum, vulputate libero
-    ac, tincidunt ante. Nulla sed purus sed nisl aliquet euismod eu ac tortor.
-    Donec imperdiet arcu vitae posuere mattis. Donec nisl diam, rutrum at elit
-    et, pharetra egestas velit. Etiam scelerisque tellus aliquet mi accumsan, a
-    dapibus quam varius. Fusce varius, sem a tempor vestibulum, augue orci
-    faucibus felis, a volutpat mi elit at nunc. Praesent cursus imperdiet
-    metus, mattis mattis sem viverra egestas. Sed non pellentesque purus.
-    Nullam accumsan placerat ligula non imperdiet. Phasellus sit amet dapibus
-    nibh, a iaculis tellus. Mauris consectetur eros sed lectus cursus tempus id
-    a orci. Vestibulum fermentum ligula at accumsan gravida.' . '<br>' .
-
-    'Donec eget hendrerit sem, eu pellentesque massa. Donec sem ex, pharetra ut
-    placerat ut, aliquam a ante. Suspendisse volutpat fringilla erat, a commodo
-    nulla pharetra ut. Orci varius natoque penatibus et magnis dis parturient
-    montes, nascetur ridiculus mus. Maecenas tincidunt, purus sed malesuada
-    laoreet, ipsum leo viverra nisl, ut maximus nibh massa eu neque. Interdum
-    et malesuada fames ac ante ipsum primis in faucibus. Donec auctor maximus
-    augue, non dignissim tortor pretium ac. Praesent scelerisque libero nec
-    imperdiet ultricies.',
-    'author' => 'hanna',
+    'title' => 'I Love Bacon!',
+    'content' => 'Bacon ipsum dolor amet sausage shankle drumstick pig, fatback
+    boudin ground round strip steak. Pork chop filet mignon brisket cow. Shank
+    beef ribs buffalo rump pastrami shoulder. Short loin landjaeger fatback
+    tri-tip meatloaf beef ribs frankfurter pancetta ham hock porchetta.
+    Tenderloin ground round jerky pork landjaeger short loin drumstick
+    picanha. <br>
+    <br>
+    Tongue tail chuck leberkas ball tip pastrami filet mignon landjaeger.
+    Venison tail pig, burgdoggen doner pancetta corned beef. Capicola brisket
+    porchetta, fatback tenderloin ham salami strip steak pig. Venison ribeye
+    sirloin, shoulder doner pork chop t-bone. Picanha pork belly sirloin bacon
+    shoulder, kevin turducken alcatra landjaeger buffalo meatball kielbasa
+    porchetta meatloaf. <br>
+    <br>
+    Meatloaf porchetta landjaeger, pork chop tail ground round buffalo biltong.
+    Bacon ball tip swine rump tongue landjaeger. Pork chop ground round picanha
+    venison pig. Short loin turducken beef ribs, hamburger fatback picanha
+    frankfurter leberkas biltong swine. Frankfurter tenderloin kevin landjaeger
+    tri-tip fatback meatloaf brisket. Flank ball tip shoulder, short ribs jerky
+    t-bone capicola spare ribs prosciutto. Brisket shoulder jowl prosciutto
+    pancetta burgdoggen leberkas salami rump chuck. <br>
+    <br>
+    Rump ground round andouille, boudin pork chop jowl leberkas pork loin
+    shankle porchetta pastrami burgdoggen cupim. Chuck ground round doner kevin
+    cow swine alcatra beef tri-tip pastrami ham hock strip steak andouille jowl
+    spare ribs. Burgdoggen shankle strip steak leberkas pastrami shoulder
+    bresaola cupim. Turkey short loin landjaeger, boudin prosciutto tail ribeye
+    buffalo corned beef fatback cow leberkas. Filet mignon shank swine
+    tenderloin pastrami jowl boudin, venison ground round pork chop. Boudin
+    pork belly meatball, tongue hamburger sausage ham pig short loin t-bone
+    chicken strip steak tri-tip turkey swine. Ham tongue jowl sirloin, pastrami
+    tail corned beef bacon doner pork chop cupim spare ribs chuck strip steak
+    meatball. <br>
+    <br>
+    Leberkas ball tip cupim turducken flank strip steak. Swine turkey pig pork
+    belly prosciutto kevin brisket drumstick ribeye, biltong cupim tail
+    leberkas. Tail tri-tip ham pig. Burgdoggen meatloaf pork chop, hamburger
+    meatball tongue rump cupim shankle flank cow drumstick. Tenderloin tail
+    ribeye pig burgdoggen corned beef beef ribs spare ribs pancetta bacon jowl
+    flank. Sirloin prosciutto doner ham bresaola tenderloin pork loin, short
+    loin brisket ham hock pastrami tongue flank corned beef. Leberkas pork
+    belly bacon, pancetta ribeye ground round shank biltong venison cow
+    hamburger fatback cupim.',
+    'author' => 'Edward Blom',
     'publishedDate' => '2018-10-17',
     'likeCounter' => 54,
+    'img' => 'https://static.thespicehouse.com/images/image/4481/large_Baked-Maple-Garlic-Bacon.jpg',
   ],
 ];
 

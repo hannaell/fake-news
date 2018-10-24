@@ -27,28 +27,38 @@ require __DIR__.'/functions.php';
         <p class="lead">This is a page with the most fake news ever written.</p>
       </div> <!-- /Div Container -->
     </div> <!-- /Div Jumbotron -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!-- Navbar -->
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav"> <!-- Div Navbar -->
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-      </div> <!-- /Div Navbar -->
-    </nav> <!-- /Navbar -->
+    <div class="row">
+      <div class="col-1">
+
+      </div>
+      <div class="col-10">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!-- Navbar -->
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav"> <!-- Div Navbar -->
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+              </li>
+            </ul>
+          </div> <!-- /Div Navbar -->
+        </nav> <!-- /Navbar -->
+      </div>
+      <div class="col-1">
+
+      </div>
+    </div>
     <div class="row"> <!-- Row1 -->
       <div class="col-1"> <!-- Div col-1 -->
 
@@ -56,11 +66,12 @@ require __DIR__.'/functions.php';
       <div class="col-10"> <!-- Div col-10 -->
         <?php foreach ($articles as $post): ?>
         <div class="card">
-          <h5 class="card-header"><?php echo $post['title']; ?></h5>
+          <img src="<?php $post['img']; ?>" alt="">
+          <h5 class="card-header bg-white"><?php echo $post['title']; ?></h5>
           <div class="row"> <!-- Row2 -->
 
             <div class="col-10"> <!-- Div col-10 -->
-              <h6><?php echo 'By:' . $post['author']; ?></h6>
+              <p><?php echo 'Written by: ' . $post['author']; ?></p>
             </div> <!-- /Div col-10 -->
             <div class="col-2"> <!-- Div col-2 -->
               <p><?php echo $post['publishedDate']; ?></p>
@@ -68,7 +79,7 @@ require __DIR__.'/functions.php';
           </div> <!-- /Row2 -->
 
           <div class="card-body"> <!-- Div CardBody -->
-            <h5 class="card-title"><?php echo $post['author']; ?></h5>
+            <h5 class="card-title"></h5>
             <p class="card-text"><?php echo $post['content']; ?></p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div> <!-- /Div CardBody -->
