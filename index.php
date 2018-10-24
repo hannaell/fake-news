@@ -21,18 +21,18 @@ require __DIR__.'/functions.php';
     <title>FakeNews</title>
   </head>
   <body>
-    <div class="jumbotron jumbotron-fluid"> <!-- Div1 -->
-      <div class="container"> <!-- Div2 -->
+    <div class="jumbotron jumbotron-fluid"> <!-- Div Jumbotron -->
+      <div class="container"> <!-- Div Container -->
         <h1 class="display-4">The Most Fake News Ever</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-      </div> <!-- /Div2 -->
-    </div> <!-- /Div1 -->
+        <p class="lead">This is a page with the most fake news ever written.</p>
+      </div> <!-- /Div Container -->
+    </div> <!-- /Div Jumbotron -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!-- Navbar -->
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav"> <!-- Div3 -->
+      <div class="collapse navbar-collapse" id="navbarNav"> <!-- Div Navbar -->
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -47,16 +47,40 @@ require __DIR__.'/functions.php';
             <a class="nav-link disabled" href="#">Disabled</a>
           </li>
         </ul>
-      </div> <!-- /Div3 -->
+      </div> <!-- /Div Navbar -->
     </nav> <!-- /Navbar -->
+    <div class="row"> <!-- Row1 -->
+      <div class="col-1"> <!-- Div col-1 -->
 
-    <?php foreach ($articles as $post): ?>
-      <h1><?php echo $post['title']; ?></h1>
-      <p><?php echo $post['content']; ?></p>
-      <p><?php echo $post['author']; ?></p>
-      <p><?php echo $post['publishedDate']; ?></p>
-      <p><?php echo $post['likeCounter']; ?></p>
-    <?php endforeach; ?>
+      </div> <!-- /Div col-1 -->
+      <div class="col-10"> <!-- Div col-10 -->
+        <?php foreach ($articles as $post): ?>
+        <div class="card">
+          <h5 class="card-header"><?php echo $post['title']; ?></h5>
+          <div class="row"> <!-- Row2 -->
+
+            <div class="col-10"> <!-- Div col-10 -->
+              <h6><?php echo 'By:' . $post['author']; ?></h6>
+            </div> <!-- /Div col-10 -->
+            <div class="col-2"> <!-- Div col-2 -->
+              <p><?php echo $post['publishedDate']; ?></p>
+            </div> <!-- /Div col-2 -->
+          </div> <!-- /Row2 -->
+
+          <div class="card-body"> <!-- Div CardBody -->
+            <h5 class="card-title"><?php echo $post['author']; ?></h5>
+            <p class="card-text"><?php echo $post['content']; ?></p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div> <!-- /Div CardBody -->
+        </div>
+      <?php endforeach; ?>
+      </div> <!-- /Div col-10 -->
+      <div class="col-1"> <!-- Div col-1 -->
+
+      </div> <!-- /Div col-1 -->
+    </div> <!-- /Row1 -->
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
