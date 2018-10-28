@@ -28,10 +28,10 @@ require __DIR__.'/functions.php';
       </div> <!-- /Div Container -->
     </div> <!-- /Div Jumbotron -->
     <div class="row">
-      <div class="col-1">
+      <div class="col-2"> <!-- Div col-2 -->
 
-      </div>
-      <div class="col-10">
+      </div> <!-- /Div col-2 -->
+      <div class="col-8"> <!-- Div col-8 -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!-- Navbar -->
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,30 +43,27 @@ require __DIR__.'/functions.php';
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Articels</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link" href="#">Writers</a>
               </li>
             </ul>
           </div> <!-- /Div Navbar -->
         </nav> <!-- /Navbar -->
-      </div>
-      <div class="col-1">
+      </div> <!-- /Div col-8 -->
+      <div class="col-2"> <!-- Div col-2 -->
 
-      </div>
+      </div> <!-- /Div col-2 -->
     </div>
     <div class="row"> <!-- Row1 -->
-      <div class="col-1"> <!-- Div col-1 -->
+      <div class="col-2"> <!-- Div col-2 -->
 
-      </div> <!-- /Div col-1 -->
-      <div class="col-10"> <!-- Div col-10 -->
+      </div> <!-- /Div col-2 -->
+      <div class="col-8"> <!-- Div col-8 -->
         <?php foreach ($articles as $post): ?>
         <div class="card">
-          <img src="<?php $post['img']; ?>" alt="">
+          <img src="<?php echo $post['img']; ?>" alt="">
           <h5 class="card-header bg-white"><?php echo $post['title']; ?></h5>
           <div class="row"> <!-- Row2 -->
 
@@ -85,10 +82,10 @@ require __DIR__.'/functions.php';
           </div> <!-- /Div CardBody -->
         </div>
       <?php endforeach; ?>
-      </div> <!-- /Div col-10 -->
-      <div class="col-1"> <!-- Div col-1 -->
+    </div> <!-- /Div col-8 -->
+      <div class="col-2"> <!-- Div col-2 -->
 
-      </div> <!-- /Div col-1 -->
+      </div> <!-- /Div col-2 -->
     </div> <!-- /Row1 -->
 
 

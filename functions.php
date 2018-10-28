@@ -11,3 +11,12 @@ function getTitle(array $articles): array {
   }
   return $title;
 }
+
+function getAuthor(array $articles): array {
+  $author = [];
+  foreach ($articles as $article) {
+    $author[] = $article['author'];
+
+  }
+  return $author;
+}

@@ -243,7 +243,6 @@ $articles = [
     rat Blimey me lookout nipper Corsair six pounders aft. Square-rigged six
     pounders chandler Jack Ketch Plate Fleet bring a spring upon her cable
     sheet smartly cable lee. <br>
-    <br>
     Rope\'s end killick furl Davy Jones\' Locker red ensign ballast code of
     conduct overhaul measured fer yer chains lugger. Trysail squiffy snow
     salmagundi list Yellow Jack to go on account broadside run a rig gabion.
@@ -259,7 +258,6 @@ $articles = [
     Admiral of the Black fire ship coxswain pirate Sink me splice the main
     brace. Fire ship jib log hempen halter coffer bilge water Shiver me timbers
     sloop hogshead fathom. <br>
-    <br>
     Barque haul wind boatswain cog fathom parley marooned Brethren of the Coast
     scallywag pirate. Gangplank gibbet chase guns Spanish Main belay splice the
     main brace spirits swab flogging main sheet. Corsair Jack Ketch schooner
