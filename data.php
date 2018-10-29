@@ -44,7 +44,7 @@ $articles = [
     bright red. Fanged frisbees, phoenix tears good clean match.',
     'author' => 'Voldemort',
     'publishedDate' => '2018-10-17',
-    'likeCounter' => 54,
+    'likeCounter' => 28,
     'img' => 'https://www.telegraph.co.uk/content/dam/books/2017/06/22/harry-potter-xlarge_trans_NvBQzQNjv4BqRx1QUjX2Eu_sBbDTbEJln9YjO2Jl1jFi7VIOwaiANGs.jpg',
   ],
   [
@@ -83,8 +83,8 @@ $articles = [
     And know that this power can be yours. Embrace your worst fear. Become one
     with the darkness.',
     'author' => 'Lois Lane',
-    'publishedDate' => '2018-10-17',
-    'likeCounter' => 54,
+    'publishedDate' => '2015-12-28',
+    'likeCounter' => 137,
     'img' => 'https://nerdist.com/wp-content/uploads/2016/12/Batman-large.jpg',
   ],
   [
@@ -116,8 +116,8 @@ $articles = [
     water, I’m going to drink it and pee on his bitch face. I\'m a smart ass
     with a great ass. Beat that Superman.',
     'author' => 'Lois Lane',
-    'publishedDate' => '2018-10-17',
-    'likeCounter' => 54,
+    'publishedDate' => '2007-03-20',
+    'likeCounter' => 75,
     'img' => 'https://nerdist.com/wp-content/uploads/2018/01/deadpool-5120x2880-american-superhero-4k-8k-hd-2728.jpg',
   ],
   [
@@ -160,7 +160,7 @@ $articles = [
     again and he will come for us, headmaster Erumpent horn. Fenrir Grayback
     horseless carriages ‘zis is a chance many would die for!',
     'author' => 'Voldemort',
-    'publishedDate' => '2018-10-17',
+    'publishedDate' => '2005-04-05',
     'likeCounter' => 54,
     'img' => 'http://rebel-scum.com/images/uploads/news/voldemort_harry_potter.jpg',
   ],
@@ -192,8 +192,8 @@ $articles = [
     the cheese the big cheese. Stilton who moved my cheese stilton babybel
     parmesan cheese on toast.',
     'author' => 'Edward Blom',
-    'publishedDate' => '2018-10-17',
-    'likeCounter' => '54',
+    'publishedDate' => '2012-09-17',
+    'likeCounter' => 43,
     'img' => 'https://cdn1.medicalnewstoday.com/content/images/articles/299/299147/cheese-varieties.jpg',
   ],
   [
@@ -232,9 +232,9 @@ $articles = [
     smol maximum borkdrive. You are doing me the shock shoob heckin good boys
     vvv very taste wow, porgo mlem fat boi.',
     'author' => 'Scooby Doo',
-    'publishedDate' => '2018-10-17',
-    'likeCounter' => 54,
-    'img' => 'https://peopledotcom.files.wordpress.com/2018/01/dog-poo.jpg',
+    'publishedDate' => '2018-05-03',
+    'likeCounter' => 35,
+    'img' => 'https://www.rd.com/wp-content/uploads/2017/10/These-Funny-Dog-Videos-Are-the-Break-You-Need-Right-Now_493370860-Jenn_C-760x506.jpg',
   ],
   [
     'title' => 'Captain Jack Sparrow Fell Overboard!',
@@ -268,9 +268,9 @@ $articles = [
     man-of-war. Wench fluke rutters Plate Fleet clipper gibbet capstan Pieces
     of Eight topsail Buccaneer.',
     'author' => 'Black Beard',
-    'publishedDate' => '2018-10-17',
-    'likeCounter' => 54,
-    'img' => 'https://i.redd.it/v2jkbnhf82ez.png',
+    'publishedDate' => '1712-08-05',
+    'likeCounter' => 86,
+    'img' => 'https://c1.staticflickr.com/6/5473/9970372635_15376bea85_b.jpg',
   ],
   [
     'title' => 'How Captain Jack Sparrow Acctually Escaped The Abandond Island',
@@ -306,9 +306,9 @@ $articles = [
     Letter of Marque rope\'s end deadlights grog grapple belay bilge water
     topgallant bilged on her anchor scourge of the seven seas.',
     'author' => 'Black Beard',
-    'publishedDate' => '2018-10-17',
-    'likeCounter' => 54,
-    'img' => 'https://i3.wp.com/i.stack.imgur.com/LgK2A.jpg',
+    'publishedDate' => '1709-01-12',
+    'likeCounter' => 208,
+    'img' => 'https://i.stack.imgur.com/LgK2A.jpg',
   ],
   [
     'title' => 'I am In Love With Cheeseburgers',
@@ -333,8 +333,8 @@ $articles = [
     in recent history? A cheeseburger, obviously. Cheeseburgers know that what
     you want can also be what you need.',
     'author' => 'Scooby Doo',
-    'publishedDate' => '2018-10-17',
-    'likeCounter' => 54,
+    'publishedDate' => '2016-05-27',
+    'likeCounter' => 15,
     'img' => 'https://i.pinimg.com/originals/5c/cc/1e/5ccc1e18dbd213014c0c0b2fc93be601.jpg',
   ],
   [
@@ -383,8 +383,8 @@ $articles = [
     belly bacon, pancetta ribeye ground round shank biltong venison cow
     hamburger fatback cupim.',
     'author' => 'Edward Blom',
-    'publishedDate' => '2018-10-17',
-    'likeCounter' => 54,
+    'publishedDate' => '2017-02-17',
+    'likeCounter' => 20,
     'img' => 'https://static.thespicehouse.com/images/image/4481/large_Baked-Maple-Garlic-Bacon.jpg',
   ],
 ];
