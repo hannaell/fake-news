@@ -11,7 +11,7 @@ declare(strict_types=1);
 function getTitle(array $articles): array {
   $title = [];
   foreach ($articles as $article) {
-    $title[] = $article['title'] . '<br>' . $article['content'] . '<br>' . $article['author'] . '<br>' . $article['publishedDate'] . '<br>' . $article['likeCounter'];
+    $title[] = $article['title'];
 
   }
   return $title;
