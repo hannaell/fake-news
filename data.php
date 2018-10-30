@@ -5,11 +5,11 @@ declare(strict_types=1);
 
 // Array for authors names and the authors IDs.
 $authors = [
-  ['name' => 'Voldemort', 'id' => 1],
-  ['name' => 'Lois Lane', 'id' => 2],
-  ['name' => 'Edward Blom', 'id' => 3],
-  ['name' => 'Scooby Doo', 'id' => 4],
-  ['name' => 'Black Beard', 'id' => 5],
+  ['name' => 'Voldemort', 'id' => 1, 'img' => 'https://vignette.wikia.nocookie.net/harrypotter/images/6/6e/VoldemortHeadshot_DHP1.png/revision/latest?cb=20161203031453'],
+  ['name' => 'Lois Lane', 'id' => 2, 'img' => 'https://vignette.wikia.nocookie.net/marvel_dc/images/3/36/Lois_Lane_A_Celebration_of_75_Years_Textless.jpg/revision/latest?cb=20131127223735'],
+  ['name' => 'Edward Blom', 'id' => 3, 'img' => 'http://gentlemannaguiden.com/wp-content/uploads/2018/09/Edward-Ho%CC%88gtidssnaps-2-1050x958.jpg'],
+  ['name' => 'Scooby Doo', 'id' => 4, 'img' => 'https://static.comicvine.com/uploads/scale_small/11/111746/4579604-characterart-scooby-sd.jpg'],
+  ['name' => 'Black Beard', 'id' => 5, 'img' => 'https://vignette.wikia.nocookie.net/pirates/images/9/9f/BlackbeardFountain.jpg/revision/latest?cb=20121116204419'],
 ];
 
 // Array for articles. En variant.
