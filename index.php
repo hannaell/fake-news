@@ -9,14 +9,12 @@ require __DIR__.'/header.php';
 
 <div class="row"> <!-- Row1 -->
     <div class="col-2"> <!-- Div col-2 -->
-
     </div> <!-- /Div col-2 -->
     <div class="col-8"> <!-- Div col-8 -->
         <?php foreach ($articles as $post): ?>
             <div class="card">
                 <img class="img-fluid" src="<?php echo $post['img']; ?>">
                 <h5 class="card-header bg-white"><?php echo $post['title']; ?></h5>
-
                 <div class="card-body"> <!-- Div CardBody -->
                     <h5 class="card-title"></h5>
                     <p class="card-text"><?php echo $post['content']; ?></p>
@@ -29,13 +27,11 @@ require __DIR__.'/header.php';
                             <p><?php echo $post['likeCounter'] . ' likes'; ?></p>
                         </div> <!-- /Div col-2 -->
                     </div> <!-- /Row2 -->
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div> <!-- /Div CardBody -->
             </div>
         <?php endforeach; ?>
     </div> <!-- /Div col-8 -->
     <div class="col-2"> <!-- Div col-2 -->
-
     </div> <!-- /Div col-2 -->
 </div> <!-- /Row1 -->
 
