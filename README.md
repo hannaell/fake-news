@@ -6,6 +6,7 @@ First PHP assignment for Webbutvecklare @ Yrgo
 
 - [Isa Areschoug](https://github.com/Neyrin) - PC
 - [Isabelle Krall](https://github.com/IsabelleKrall) - Mac
+- [Benjamin Fransson](https://github.com/erhuz) - Mac
 
 
 ### Prerequisites
