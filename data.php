@@ -13,7 +13,7 @@ $authors = [
 ];
 
 
-// Array for articles. En variant.
+// Array for articles.
 $articles = [
     [
         'title' => 'The True Harry Potter Story',
@@ -389,103 +389,3 @@ $articles = [
         'img' => 'img/Bacon.jpg',
     ],
 ];
-
-
-// Array for articles. En annan variant.
-// $articles2 = [
-//     [
-//         'title' => [
-//           'title1',
-//           'title2',
-//         ],
-//         'content' => [
-//             'content1',
-//             'content2',
-//         ],
-//         'author' => 'author1',
-//         'publishedDate' => [
-//             '2018-01-01',
-//             '2018-02-02',
-//         ],
-//         'likeCounter' => [
-//             1,
-//             2,
-//         ],
-//     ],
-//     [
-//         'title' => [
-//           'title3',
-//           'title4',
-//         ],
-//         'content' => [
-//             'content3',
-//             'content4',
-//         ],
-//         'author' => 'author2',
-//         'publishedDate' => [
-//             '2018-03-03',
-//             '2018-04-04',
-//         ],
-//         'likeCounter' => [
-//             3,
-//             4,
-//         ],
-//     ],
-//     [
-//         'title' => [
-//           'title5',
-//           'title6',
-//         ],
-//         'content' => [
-//             'content5',
-//             'content6',
-//         ],
-//         'author' => 'author3',
-//         'publishedDate' => [
-//             '2018-05-05',
-//             '2018-06-06',
-//         ],
-//         'likeCounter' => [
-//             5,
-//             6,
-//         ],
-//     ],
-//     [
-//         'title' => [
-//           'title7',
-//           'title8',
-//         ],
-//         'content' => [
-//             'content7',
-//             'content8',
-//         ],
-//         'author' => 'author4',
-//         'publishedDate' => [
-//             '2018-07-07',
-//             '2018-08-08',
-//         ],
-//         'likeCounter' => [
-//             7,
-//             8,
-//         ],
-//     ],
-//     [
-//         'title' => [
-//           'title9',
-//           'title10',
-//         ],
-//         'content' => [
-//             'content9',
-//             'content10',
-//         ],
-//         'author' => 'author5',
-//         'publishedDate' => [
-//             '2018-09-09',
-//             '2018-10-10',
-//         ],
-//         'likeCounter' => [
-//             9,
-//             10,
-//         ],
-//     ],
-// ];

@@ -3,28 +3,28 @@ declare(strict_types=1);
 
 require __DIR__.'/header.php';
 ?>
-<div class="row">
-    <div class="col-2">
-    </div>
-    <div class="col-8 d-flex">
-        <div class="row">
+<div class="row"> <!-- Row1 -->
+    <div class="col-2"> <!-- Div col-2 -->
+    </div> <!-- /Div col-2 -->
+    <div class="col-8 d-flex"> <!-- Div col-8 -->
+        <div class="row"> <!-- Row2 -->
             <?php foreach ($authors as $author): ?>
-                <div class="col-4">
+                <div class="col-4"> <!-- Div col-4 -->
                     <a href="authorArticle.php?author=<?php echo $author['name']; ?>">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" style="width: 18rem;"> <!-- Div Card -->
                             <img class="card-img-top img-fluid" src="<?php echo $author['img']; ?>">
-                            <div class="card-body">
+                            <div class="card-body"> <!-- Div CardBody -->
                                 <p class="card-text"><?php echo $author['name']; ?></p>
-                            </div>
-                        </div>
+                            </div> <!-- /Div CardBody -->
+                        </div> <!-- /Div Card -->
                     </a>
-                </div>
+                </div> <!-- /Div col-4 -->
             <?php endforeach; ?>
-        </div>
-    </div>
-    <div class="col-2">
-    </div>
-</div>
+        </div> <!-- /Row2 -->
+    </div> <!-- /Div col-8 -->
+    <div class="col-2"> <!-- Div col-2 -->
+    </div> <!-- /Div col-2 -->
+</div> <!-- /Row1 -->
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -36,14 +36,14 @@ usort($articles, "sortByDate");
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav"> <!-- Div Navbar -->
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
+                    <ul class="navbar-nav"> <!-- ul -->
+                        <li class="nav-item"> <!-- li item1 -->
                             <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
+                        </li> <!-- /li item1 -->
+                        <li class="nav-item"> <!-- li item2 -->
                             <a class="nav-link" href="authors.php">Writers</a>
-                        </li>
-                    </ul>
+                        </li> <!-- /li item2 -->
+                    </ul> <!-- /ul -->
                 </div> <!-- /Div Navbar -->
             </nav> <!-- /Navbar -->
         </div> <!-- /Div col-8 -->
