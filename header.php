@@ -41,9 +41,6 @@ usort($articles, "sortByDate");
                             <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Articels</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="authors.php">Writers</a>
                         </li>
                     </ul>

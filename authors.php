@@ -5,21 +5,23 @@ require __DIR__.'/header.php';
 ?>
 <div class="row">
     <div class="col-2">
-
     </div>
-    <div class="col-8">
-        <?php foreach ($authors as $author): ?>
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top img-fluid" src="<?php echo $author['img']; ?>">
-                <div class="card-body">
-                    <p class="card-text"><?php echo $author['name']; ?></p>
-                    <p class="card-text"><?php echo $author['id']; ?></p>
+    <div class="col-8 d-flex">
+        <div class="row">
+            <?php foreach ($authors as $author): ?>
+                <div class="col-4">
+
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top img-fluid" src="<?php echo $author['img']; ?>">
+                        <div class="card-body">
+                            <p class="card-text"><?php echo $author['name']; ?></p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        <?php endforeach; ?>
+            <?php endforeach; ?>
+        </div>
     </div>
     <div class="col-2">
-
     </div>
 </div>
 

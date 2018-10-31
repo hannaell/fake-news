@@ -11,24 +11,23 @@ require __DIR__.'/header.php';
     <div class="col-2"> <!-- Div col-2 -->
     </div> <!-- /Div col-2 -->
     <div class="col-8"> <!-- Div col-8 -->
-        <?php foreach ($articles as $post): ?>
-            <div class="card">
-                <img class="img-fluid" src="<?php echo $post['img']; ?>">
-                <h5 class="card-header bg-white"><?php echo $post['title']; ?></h5>
+        <?php foreach ($articles as $article): ?>
+            <div class="card"> <!-- Div Card -->
+                <img class="img-fluid" src="<?php echo $article['img']; ?>">
+                <h3 class="card-header bg-white"><?php echo $article['title']; ?></h3>
                 <div class="card-body"> <!-- Div CardBody -->
-                    <h5 class="card-title"></h5>
-                    <p class="card-text"><?php echo $post['content']; ?></p>
+                    <p class="card-text"><?php echo $article['content']; ?></p>
                     <div class="row"> <!-- Row2 -->
                         <div class="col-10"> <!-- Div col-10 -->
-                            <p><?php echo 'Written by: ' . $post['author']; ?></p>
+                            <p><?php echo 'Written by: ' . $article['author']; ?></p>
                         </div> <!-- /Div col-10 -->
                         <div class="col-2"> <!-- Div col-2 -->
-                            <p><?php echo $post['publishedDate']; ?></p>
-                            <p><?php echo $post['likeCounter'] . ' likes'; ?></p>
+                            <p><?php echo $article['publishedDate']; ?></p>
+                            <p><?php echo $article['likeCounter'] . ' likes'; ?></p>
                         </div> <!-- /Div col-2 -->
                     </div> <!-- /Row2 -->
                 </div> <!-- /Div CardBody -->
-            </div>
+            </div> <!-- /Div Card -->
         <?php endforeach; ?>
     </div> <!-- /Div col-8 -->
     <div class="col-2"> <!-- Div col-2 -->
