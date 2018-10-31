@@ -9,16 +9,16 @@ require __DIR__.'/header.php';
     <div class="col-8 d-flex"> <!-- Div col-8 -->
         <div class="row"> <!-- Row2 -->
             <?php foreach ($authors as $author): ?>
-                <div class="col-4"> <!-- Div col-4 -->
+                <div class="col-12 col-md-4"> <!-- Div col-12 -->
                     <a href="authorArticle.php?author=<?php echo $author['name']; ?>">
-                        <div class="card" style="width: 18rem;"> <!-- Div Card -->
+                        <div class="card"> <!-- Div Card -->
                             <img class="card-img-top img-fluid" src="<?php echo $author['img']; ?>">
                             <div class="card-body"> <!-- Div CardBody -->
                                 <p class="card-text"><?php echo $author['name']; ?></p>
                             </div> <!-- /Div CardBody -->
                         </div> <!-- /Div Card -->
                     </a>
-                </div> <!-- /Div col-4 -->
+                </div> <!-- /Div col-12 -->
             <?php endforeach; ?>
         </div> <!-- /Row2 -->
     </div> <!-- /Div col-8 -->
