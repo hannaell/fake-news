@@ -10,13 +10,14 @@ require __DIR__.'/header.php';
         <div class="row">
             <?php foreach ($authors as $author): ?>
                 <div class="col-4">
-
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top img-fluid" src="<?php echo $author['img']; ?>">
-                        <div class="card-body">
-                            <p class="card-text"><?php echo $author['name']; ?></p>
+                    <a href="authorArticle.php?author=<?php echo $author['name']; ?>">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top img-fluid" src="<?php echo $author['img']; ?>">
+                            <div class="card-body">
+                                <p class="card-text"><?php echo $author['name']; ?></p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             <?php endforeach; ?>
         </div>

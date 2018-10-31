@@ -11,7 +11,8 @@ require __DIR__.'/header.php';
     <div class="col-2"> <!-- Div col-2 -->
     </div> <!-- /Div col-2 -->
     <div class="col-8"> <!-- Div col-8 -->
-        <?php foreach ($articles as $article): ?>
+        <?php foreach ($articles as $article):
+                if ($article['author'] === $_GET['author']) :?>
             <div class="card"> <!-- Div Card -->
                 <img class="img-fluid" src="<?php echo $article['img']; ?>">
                 <h3 class="card-header bg-white"><?php echo $article['title']; ?></h3>
@@ -19,9 +20,7 @@ require __DIR__.'/header.php';
                     <p class="card-text"><?php echo $article['content']; ?></p>
                     <div class="row"> <!-- Row2 -->
                         <div class="col-10"> <!-- Div col-10 -->
-                            <a href="authorArticle.php?author=<?php echo $article['author']; ?>">
-                                <p><?php echo 'Written by: ' . $article['author']; ?></p>
-                            </a>
+                            <p><?php echo 'Written by: ' . $article['author']; ?></p>
                         </div> <!-- /Div col-10 -->
                         <div class="col-2"> <!-- Div col-2 -->
                             <p><?php echo $article['publishedDate']; ?></p>
@@ -30,7 +29,7 @@ require __DIR__.'/header.php';
                     </div> <!-- /Row2 -->
                 </div> <!-- /Div CardBody -->
             </div> <!-- /Div Card -->
-        <?php endforeach; ?>
+        <?php endif; endforeach; ?>
     </div> <!-- /Div col-8 -->
     <div class="col-2"> <!-- Div col-2 -->
     </div> <!-- /Div col-2 -->
