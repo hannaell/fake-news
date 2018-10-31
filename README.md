@@ -4,7 +4,7 @@ First PHP assignment for Webbutvecklare @ Yrgo
 
 ## Testers
 
-- [Adrian Jungnelius](https://github.com/AdrianJung) - Windows
+- [Isa Areschoug](https://github.com/Neyrin) - PC
 - [Isabelle Krall](https://github.com/IsabelleKrall) - Mac
 
 
@@ -28,4 +28,4 @@ First PHP assignment for Webbutvecklare @ Yrgo
 
 ## License
 
-- MIT
+-MIT
